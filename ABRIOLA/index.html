@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script>
+        (function() {
+            emailjs.init('pasquale');
+        })();
+    </script>
+    
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pasquale Berterame | ABRIOLA</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <div>A</div>
+        PRENOTA
+      </div>
+      <ul class="nav__socials">
+        <li>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-pinterest-line"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </li>
+      </ul>
+      <div class="nav__contact">
+        <div class="nav__contact__card">
+          <span><i class="ri-phone-line"></i></span>
+          <div>
+            <p>Chiama qui</p>
+            <h4> 3451058611</h4>
+          </div>
+        </div>
+        <div class="nav__contact__card">
+          <span><i class="ri-mail-line"></i></span>
+          <div>
+            <p>Email</p>
+            <h4>pasquale.berterame06@gmail.com</h4>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <img src="assets/assets3.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>Prenota la tua vacanza perfetta ad  <span>ABRIOLA</span></h1>
+        <p>
+          Un affascinante borgo situato in provincia di Potenza, nella regione Basilicata. 
+          Questo piccolo paese si trova a circa 957 metri di altitudine, arroccato su una montagna e 
+          circondato da un suggestivo paesaggio montuoso. L'ambiente naturale che circonda Abriola 
+          offre un'ampia gamma di attrazioni turistiche, ideali per gli amanti della natura e delle 
+          attivita all'aperto.In inverno, Abriola si trasforma in una meta perfetta per gli appassionati 
+          di sci, grazie alla vicinanza degli impianti sciistici che permettono di godere delle piste innevate.
+          Gli amanti della mountain bike troveranno ad Abriola percorsi adatti a tutti i livelli, dai principianti 
+          agli esperti, che offrono emozionanti discese e spettacolari viste sulle montagne circostanti.
+          Abriola non e' solo natura e sport: il borgo conserva anche un patrimonio storico e culturale di 
+          grande interesse, con le sue caratteristiche stradine, chiese antiche e tradizioni locali che raccontano 
+          la storia e la cultura della Basilicata.
+        </p>
+         <div class="container">
+            <h1>Modulo di Prenotazione</h1>
+                <form id="booking-form">
+                <label for="attraction-type">Tipo di attrazione:</label>
+                <input type="text" id="attraction-type" name="attraction-type" required>
+
+                <label for="vacation-day">Giorno della vacanza:</label>
+                <input type="date" id="vacation-day" name="vacation-day" required>
+
+                <button type="button" onclick="sendEmail()">Invia</button>
+        </form>
+    </div>
+      </div>
+    </header>
+      <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright@ 2024 Pasquale Berterame.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
